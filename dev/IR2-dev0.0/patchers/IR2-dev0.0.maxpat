@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2672.0, -317.0, 1678.0, 853.0 ],
+		"rect" : [ 34.0, 87.0, 1678.0, 853.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1006,7 +1006,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Piano.aif",
 				"bootpath" : "~/Documents/Max 8/Packages/FFTease2.52/help",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/FFTease2.52/help",
+				"patcherrelativepath" : "../../../../../../../../Max 8/Packages/FFTease2.52/help",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -1022,71 +1022,71 @@
 			}
 , 			{
 				"name" : "jk.push.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.pushcore.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.pushrotary.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livebuttoninfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livedialinfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livemenuinfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livetextinfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/jk.push 2/patchers",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/jk.push 2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
+				"patcherrelativepath" : "../../IR2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smw.gran.v0.0.rnbopat",
 				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../Improvisation Rig/IR2/patchers",
 				"type" : "RBOP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smw.gran.v0.0.rnbopat.maxsnap",
 				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
-				"patcherrelativepath" : "../data",
+				"patcherrelativepath" : "../../../../Improvisation Rig/IR2/data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereo_meter.genjit",
 				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/code",
-				"patcherrelativepath" : "../code",
+				"patcherrelativepath" : "../../../../Improvisation Rig/IR2/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}

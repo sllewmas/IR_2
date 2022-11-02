@@ -1,20 +1,32 @@
 {
-	"name" : "IR2",
+	"name" : "IR2-dev0.0",
 	"version" : 1,
-	"creationdate" : 3748383576,
-	"modificationdate" : 3748383935,
-	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
+	"creationdate" : 3750276336,
+	"modificationdate" : 3750276337,
+	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"IR2.maxpat" : 			{
+			"IR2-dev0.0.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"media" : 		{
+
+		}
+,
+		"code" : 		{
+
+		}
+,
+		"data" : 		{
 
 		}
 ,
@@ -38,5 +50,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 0,
+	"includepackages" : 0
 }
