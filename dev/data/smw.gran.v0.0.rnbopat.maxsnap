@@ -1,0 +1,14 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "smw.gran.v0.0.rnbopat",
+	"origin" : "smw.gran.v0.0.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"__presetid" : "smw.gran.v0.0.rnbopat"
+	}
+
+}
