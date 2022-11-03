@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1678.0, 853.0 ],
+		"rect" : [ 591.0, 122.0, 1244.0, 853.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,86 +40,1720 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"autosave" : 1,
-					"id" : "obj-1",
-					"inletInfo" : 					{
-						"IOInfo" : [  ]
-					}
-,
+					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outletInfo" : 					{
-						"IOInfo" : [  ]
-					}
-,
-					"outlettype" : [ "list" ],
-					"patching_rect" : [ 1371.0, 694.0, 164.0, 22.0 ],
-					"rnboattrcache" : 					{
-
-					}
-,
-					"rnboversion" : "1.0.0",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~",
-							"parameter_shortname" : "rnbo~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"optimization" : "O1",
-						"parameter_enable" : 1,
-						"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "rnbo~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"__presetid" : "smw.gran.v0.0.rnbopat"
+					"outlettype" : [ "multichannelsignal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 0,
+							"architecture" : "x64",
+							"modernui" : 1
 						}
 ,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "smw.gran.v0.0.rnbopat",
-									"origin" : "smw.gran.v0.0.rnbopat",
-									"type" : "rnbo",
-									"subtype" : "",
-									"embed" : 1,
-									"snapshot" : 									{
-										"__presetid" : "smw.gran.v0.0.rnbopat"
-									}
+						"classnamespace" : "box",
+						"rect" : [ 457.0, 106.0, 644.0, 837.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
 ,
-									"fileref" : 									{
-										"name" : "smw.gran.v0.0.rnbopat",
-										"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
-										"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
-										"filepos" : -1,
-										"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
-									}
+										"classnamespace" : "box",
+										"rect" : [ 723.0, 185.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 116.0, 258.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
 
-								}
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 300.0, 129.0, 22.0 ],
+													"text" : "mc.send~ from_gran 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 131.0, 22.0 ],
+													"text" : "mc.receive~ to_harm 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
  ]
-						}
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 171.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
 
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~[5]",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 397.0, 46.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p harm"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 723.0, 185.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 116.0, 258.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 300.0, 131.0, 22.0 ],
+													"text" : "mc.send~ from_chop 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 130.0, 22.0 ],
+													"text" : "mc.receive~ to_chop 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
+ ]
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 171.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
+
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~[4]",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 361.0, 45.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p chop"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 723.0, 185.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 116.0, 258.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 300.0, 129.0, 22.0 ],
+													"text" : "mc.send~ from_mrm 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 128.0, 22.0 ],
+													"text" : "mc.receive~ to_mrm 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
+ ]
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 171.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
+
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~[3]",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 269.0, 42.0, 22.0 ],
+									"presentation_linecount" : 3,
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p mrm"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 723.0, 185.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 163.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 222.0, 118.0, 22.0 ],
+													"text" : "mc.send~ from_sd 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 116.0, 22.0 ],
+													"text" : "mc.receive~ to_sd 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
+ ]
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 124.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
+
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~[2]",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 241.0, 31.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p sd"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 818.0, 271.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 116.0, 258.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 125.0, 323.0, 129.0, 22.0 ],
+													"text" : "mc.send~ from_gran 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 128.0, 22.0 ],
+													"text" : "mc.receive~ to_gran 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
+ ]
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 171.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
+
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~[1]",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 297.0, 43.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p gran"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 158.0, 229.991026919242245, 145.0, 22.0 ],
+									"text" : "mc.receive~ from_harm 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 139.0, 202.57826520438681, 144.0, 22.0 ],
+									"text" : "mc.receive~ from_chop 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 120.0, 175.165503489531403, 140.0, 22.0 ],
+									"text" : "mc.receive~ from_loop 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 101.0, 147.752741774675968, 142.0, 22.0 ],
+									"text" : "mc.receive~ from_gran 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 82.0, 120.339980059820533, 142.0, 22.0 ],
+									"text" : "mc.receive~ from_mrm 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 44.0, 65.514456630109663, 65.0, 22.0 ],
+									"text" : "mc.dup~ 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-22",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.0, 32.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 63.0, 92.927218344965098, 130.0, 22.0 ],
+									"text" : "mc.receive~ from_sd 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 0,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 723.0, 185.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 116.0, 258.0, 60.0, 22.0 ],
+													"text" : "mc.pack~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 300.0, 128.0, 22.0 ],
+													"text" : "mc.send~ from_loop 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "multichannelsignal" ],
+													"patching_rect" : [ 120.0, 65.0, 126.0, 22.0 ],
+													"text" : "mc.receive~ to_loop 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"autosave" : 1,
+													"id" : "obj-1",
+													"inletInfo" : 													{
+														"IOInfo" : [ 															{
+																"type" : "signal",
+																"index" : 1,
+																"tag" : "in1",
+																"comment" : ""
+															}
+, 															{
+																"type" : "signal",
+																"index" : 2,
+																"tag" : "in2",
+																"comment" : ""
+															}
+, 															{
+																"type" : "midi",
+																"index" : -1,
+																"tag" : "",
+																"comment" : ""
+															}
+ ]
+													}
+,
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outletInfo" : 													{
+														"IOInfo" : [  ]
+													}
+,
+													"outlettype" : [ "list" ],
+													"patching_rect" : [ 120.0, 171.0, 164.0, 22.0 ],
+													"rnboattrcache" : 													{
+
+													}
+,
+													"rnboversion" : "1.0.0",
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_invisible" : 1,
+															"parameter_longname" : "rnbo~",
+															"parameter_shortname" : "rnbo~",
+															"parameter_type" : 3
+														}
+
+													}
+,
+													"saved_object_attributes" : 													{
+														"optimization" : "O1",
+														"parameter_enable" : 1,
+														"uuid" : "d7af0239-5a45-11ed-8239-88e9fe75c06e"
+													}
+,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "rnbo~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+															"__presetid" : "smw.gran.v0.0.rnbopat"
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "smw.gran.v0.0.rnbopat",
+																	"origin" : "smw.gran.v0.0.rnbopat",
+																	"type" : "rnbo",
+																	"subtype" : "",
+																	"embed" : 1,
+																	"snapshot" : 																	{
+																		"__presetid" : "smw.gran.v0.0.rnbopat"
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "smw.gran.v0.0.rnbopat",
+																		"filename" : "smw.gran.v0.0.rnbopat.maxsnap",
+																		"filepath" : "~/Documents/Dropbox/Work/Projects/Current/Improvisation Rig/IR2/data",
+																		"filepos" : -1,
+																		"snapshotfileid" : "71a4669f267de4ee9a4fd949754d5ba1"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
+													"text" : "rnbo~ smw.gran.v0.0.rnbopat",
+													"varname" : "rnbo~"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 363.0, 326.0, 41.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p loop"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 158.0, 383.642073778663985, 118.0, 22.0 ],
+									"text" : "mc.send~ to_harm 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 139.0, 411.05483549351942, 117.0, 22.0 ],
+									"text" : "mc.send~ to_chop 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 120.0, 438.467597208374855, 114.0, 22.0 ],
+									"text" : "mc.send~ to_loop 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 103.0, 465.88035892323029, 115.0, 22.0 ],
+									"text" : "mc.send~ to_gran 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 82.0, 493.293120638085668, 115.0, 22.0 ],
+									"text" : "mc.send~ to_mrm 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 63.0, 520.705882352941217, 104.0, 22.0 ],
+									"text" : "mc.send~ to_sd 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 464.0, 30.0, 150.0, 114.0 ],
+									"presentation_linecount" : 8,
+									"text" : "ouptet\n1) to electronics\n2) spectral delay\n3) multi-ring mod\n4) granulator\n5) looper\n6) chopper\n7)delay-y thing?"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 331.0, 18.0, 150.0, 114.0 ],
+									"text" : "inlets\n1) tpt\n2) spectral delay\n3) multi-ring mod\n4) granulator\n5) looper\n6) chopper\n7) harmonizer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 7,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 44.0, 257.40378863409768, 133.0, 22.0 ],
+									"text" : "mc.combine~ 7"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 8,
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+									"patching_rect" : [ 44.0, 356.22931206380855, 152.0, 22.0 ],
+									"text" : "mc.separate~ 2 2 2 2 2 2 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-3",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 44.0, 548.118644067796595, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "multichannelsignal", "" ],
+									"patching_rect" : [ 44.0, 314.816550348953115, 107.0, 22.0 ],
+									"text" : "mcs.matrix~ 14 14"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 2 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 3 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 4 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 5 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 6 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-6", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-6", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-6", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-6", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-6", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
-					"text" : "rnbo~ smw.gran.v0.0.rnbopat",
-					"varname" : "rnbo~"
+					"patching_rect" : [ 1203.0, 509.0, 38.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p dsp"
 				}
 
 			}
@@ -989,8 +2623,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "rnbo~", "rnbo~", 0 ],
 			"obj-40" : [ "live.dial", "live.dial", 0 ],
+			"obj-4::obj-20::obj-1" : [ "rnbo~", "rnbo~", 0 ],
+			"obj-4::obj-31::obj-1" : [ "rnbo~[1]", "rnbo~", 0 ],
+			"obj-4::obj-32::obj-1" : [ "rnbo~[2]", "rnbo~", 0 ],
+			"obj-4::obj-33::obj-1" : [ "rnbo~[3]", "rnbo~", 0 ],
+			"obj-4::obj-34::obj-1" : [ "rnbo~[4]", "rnbo~", 0 ],
+			"obj-4::obj-35::obj-1" : [ "rnbo~[5]", "rnbo~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1022,50 +2661,50 @@
 			}
 , 			{
 				"name" : "jk.push.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.pushcore.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.pushrotary.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livebuttoninfo.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livedialinfo.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livemenuinfo.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "livetextinfo.maxpat",
-				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2/patchers",
-				"patcherrelativepath" : "../../IR2/patchers",
+				"bootpath" : "~/Documents/Dropbox/Work/Projects/Current/IR_2/dev/IR2-dev0.0/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
